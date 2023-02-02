@@ -28,8 +28,8 @@
   </div>
 </nav>
 
-{% if search == null %}
 <p> Rentrer Product1, Product2, etc... dans la search bar</p>
+{% if search == null %}
 {% else %}
 <h1>{{ search[0].name }}</h1> 
 <h1>{{ search[0].price}}</h1> 
