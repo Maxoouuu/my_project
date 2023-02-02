@@ -14,6 +14,7 @@ class MyEntityFixtures extends Fixture
             $entity = new Product();
             $entity ->setName("product$i")
             ->setPrice(random_int(0, 500))
+            
             ;
             $manager->persist($entity);
         }
